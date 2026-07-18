@@ -1,0 +1,53 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#39d353"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="220" rx="12" fill="url(#bg)"/>
+
+  <!-- subtle circuit-line pattern -->
+  <g stroke="#30363d" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M620 0 L620 40 L680 40 L680 90 L900 90"/>
+    <path d="M700 0 L700 60 L760 60 L760 20 L900 20"/>
+    <path d="M650 220 L650 170 L740 170 L740 130 L900 130"/>
+    <circle cx="680" cy="40" r="3" fill="#39d353"/>
+    <circle cx="760" cy="60" r="3" fill="#58a6ff"/>
+    <circle cx="740" cy="170" r="3" fill="#39d353"/>
+  </g>
+
+  <!-- name -->
+  <text x="40" y="85" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#e6edf3">
+    Ali Raza
+  </text>
+
+  <!-- animated typing subtitle -->
+  <text x="40" y="120" font-family="Fira Code, Consolas, monospace" font-size="20" fill="url(#accent)">
+    <tspan id="typing"></tspan>
+    <animate xlink:href="#typing" attributeName="opacity" values="1" dur="0.1s" fill="freeze"/>
+  </text>
+  <text x="40" y="120" font-family="Fira Code, Consolas, monospace" font-size="20" fill="url(#accent)">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.1s" fill="freeze"/>
+    Full Stack Developer — Laravel &amp; React
+    <animate attributeName="opacity" values="1;0;1" dur="1s" begin="0.6s" repeatCount="1"/>
+  </text>
+
+  <!-- blinking cursor -->
+  <rect x="395" y="103" width="10" height="22" fill="#39d353">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- tagline -->
+  <text x="40" y="160" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">
+    Building systems for businesses that don't have engineering teams
+  </text>
+
+  <!-- bottom accent line -->
+  <rect x="40" y="185" width="180" height="4" rx="2" fill="url(#accent)"/>
+</svg>
