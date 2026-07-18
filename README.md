@@ -1,8 +1,12 @@
-# Hi, I'm Ali Raza 👋
+<div align="center">
 
-**Full Stack Developer** | Laravel & PHP Specialist | React / Next.js / TypeScript
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Ali+Raza;Full+Stack+Developer;Laravel+%2B+React+%2F+Next.js;I+build+systems+for+businesses+that+don't+have+engineering+teams" alt="Typing SVG" />
+
+</div>
 
 I build scalable web systems — from client-facing SaaS platforms to internal management tools. Currently working at **Skywaves IT & Network Solution**, and running my own dev studio, **VRS (Velocity Remote Studio)**, for freelance & client projects.
+
+> Most of my work lives inside businesses that don't have an in-house dev team — hotels, POS retailers, elevator companies. I'm usually the only engineer who's ever touched their systems, so things have to be simple, reliable, and built to last without me hand-holding them.
 
 ---
 
@@ -27,6 +31,16 @@ I build scalable web systems — from client-facing SaaS platforms to internal m
 
 ![Ali's GitHub stats](https://github-readme-stats.vercel.app/api?username=aestheticraza&show_icons=true&theme=default)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aestheticraza&layout=compact)
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=aestheticraza&theme=flat&column=4&margin-w=10&margin-h=10)
+
+<!--
+  Contribution snake — requires a one-time GitHub Action setup.
+  Add this workflow file: .github/workflows/snake.yml
+  Guide: https://github.com/Platane/snk
+  Once the action runs once, this image will animate your contribution graph as a snake eating it.
+-->
+![snake gif](https://raw.githubusercontent.com/aestheticraza/aestheticraza/output/github-contribution-grid-snake.svg)
 
 ### 🌐 Find me elsewhere
 
